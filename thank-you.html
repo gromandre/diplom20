@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-разработчик</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Slider Swiper-->
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body>
+    <header class="header section">
+        <div class="container">
+            <div class="header__item">
+                <nav class="header__navbar">
+                    <ul>
+                        <li><a class="link" href="https://www.gromandre.ru#services">Услуги</a></li>
+                        <li><a class="link" href="https://www.gromandre.ru#portfolio">Портфолио</a></li>
+                        <li><a class="link" href="https://www.gromandre.ru#price">Стоимость</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="no-active"></div>
+    
+                <div class="header__burger">
+                    <button class="header__burger_button" aria-label="Кнопка меню"></button>
+                </div>
+
+                <button class="header__close_button"></button>             
+    
+                <div class="section__contacts">
+                    <a class="section__contact" href="tel:+79616607397">+7 (961) 660 73-97</a>
+                </div> 
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="profile" class="section">
+            <span class="fly-tag fly-tag--braces">{&nbsp;}</span>
+            <span class="fly-tag fly-tag--div">&lt;div&gt;</span>
+            <span class="fly-tag fly-tag--hash">#</span>
+            <span class="fly-tag fly-tag--div2">&lt;/&gt;</span>
+            <span class="fly-tag fly-tag--closed">&lt;/&gt;</span>
+
+            <div class="profile__item container">
+                <div class="profile__content">
+                    <h1 class="profile__h1">Спасибо за заявку</h1>
+                    <p class="profile__description">Я свяжусь в Вами в течении 15 минут!</p>
+                                   
+                </div>
+              
+                <!-- <div class="profile__box"> -->
+                    <img class="profile__img" src="img/gromandre.png" alt="Фото разработчика">
+                <!-- </div> -->
+            </div>
+
+            <picture>
+                <source media="(max-width: 768px)" srcset="img/Ellipse_mobile.png">
+                <source media="(max-width: 1440px)" srcset="img/Ellipse_tablet.svg">
+                <img class="profile__background-image" src="img/Ellipse_desctop.svg" alt="elipce">
+            </picture>
+        </section> 
+    </main>
+    <footer class="footer section">
+        <div class="container">
+            <div class="footer__item">
+                <nav class="footer__nav">
+                    <ul>
+                        <li><a href="https://www.gromandre.ru#services">Услуги</a></li>
+                        <li><a href="https://www.gromandre.ru#portfolio">Портфолио</a></li>
+                        <li><a href="https://www.gromandre.ru#price">Стоимость</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__contacts">
+                    <a class="section__contact footer__phoneNumber" href="tel:+79616607397">+7 (961) 660 73-97</a>
+                    <a class="section__contact footer__email" href="mailto:info@gromandre.ru">info@gromandre.ru</a>
+                </div>
+                <div>
+                    <ul class="footer__listSocialLinks">
+                        <li class="footer__socialLink">
+                            <a  href="https://vk.com/gromandre" target="_blank" class="vk" aria-label="vkontakte"></a>
+                        </li>
+                        <li class="footer__socialLink">
+                            <a  href="#" target="_blank" class="facebook" aria-label="facebook"></a>
+                        </li>
+                        <li class="footer__socialLink">
+                            <a  href="#" target="_blank" class="twitter" aria-label="twitter"></a>
+                        </li>
+                        <li class="footer__socialLink">
+                            <a  href="https://www.instagram.com/gromandre/" target="_blank" class="instagram" aria-label="instagram"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__basement">© Андрей Громов, 2020</div>
+    </footer> 
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+        ym(67688728, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/67688728" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    
+    
+</body>
+</html>
